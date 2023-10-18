@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+  box-sizing: border-box;
+}
+
+.product-small-img {
+    float: left;
+}
+.product-small-img img:hover{
+    opacity: 1;
+}
+.product-small-img img{
+    height: 92px;
+    margin: 10px;
+    cursor: pointer;
+    display: block;
+    opacity: 0.6;
+    
+}
+.product{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.img-container img{
+    height: 500px;
+}
+
+.img-container{
+    float: right;
+    padding: 10px;
+
+}
